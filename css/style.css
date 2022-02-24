@@ -21,6 +21,12 @@
 .fo-10{
     font-size: 10px;
 }
+.clip-text{
+        margin-bottom: 25px;
+    }
+    .border-dotted{
+        height: 100px;
+    }
     .header-bg {
         background: #1F682F;
     }
