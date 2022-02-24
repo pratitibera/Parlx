@@ -21,6 +21,10 @@
 .fo-10{
     font-size: 10px;
 }
+.wi-100{
+    width: 100%;
+    height: auto;
+}
 .clip-text{
         margin-bottom: 25px;
     }
