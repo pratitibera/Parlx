@@ -1045,13 +1045,13 @@
     visibility: visible;
     opacity: 1;
     position: fixed;
-    left: 25px;
+    right: 25px;
     z-index: 999 !important;
 }
 .floating-wpp {
     position: fixed;
     bottom: 15px;
-    left: 15px;
+    right: 15px;
     font-size: 14px;
     transition: bottom .2s;
 }
@@ -1083,6 +1083,7 @@
     height: auto;
     bottom: 82px;
     opacity: 1;
+    right: 35px;
 }
 .floating-wpp .floating-wpp-button img, .floating-wpp .floating-wpp-button svg {
     position: absolute;
@@ -1142,6 +1143,7 @@
     font-size: inherit;
     resize: none;
 }
+
 .floating-wpp .floating-wpp-btn-send {
     margin-left: 12px;
     font-size: 0;
