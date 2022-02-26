@@ -24,6 +24,39 @@
 </head>
 
 <body>
+  <!--- Whatsapp --->
+  <div class="fixed-on-bottom-w">
+    <div id="WAButton" class="floating-wpp">
+      <a href="https://web.whatsapp.com/send?phone==+917297820374&text=" target="_blank">
+        <div class="floating-wpp-button" style="width: 72px; height: 72px; background-color: rgb(37, 211, 102);" onmouseover="openWhatsappChat()">
+          <img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" style="z-index: 996 !important;">
+          <div class="floating-wpp-button-image"></div>
+        </div>
+      </a>
+      <div class="floating-wpp-popup" id="floating-wpp-popup">
+        <div class="floating-wpp-head" style="background-color: rgb(18, 140, 126);">
+          <span>Chat with PARLX</span>
+          <strong class="closee" onclick="closeWhatsappChat()">×</strong>
+        </div>
+        <div class="floating-wpp-message">Hello, how can we help you?</div>
+        <div class="floating-wpp-input-message">
+          <textarea id="whatsappmsg"></textarea>
+          <div class="floating-wpp-btn-send" onclick="sendWhatsappMsg()">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 20 18" width="20" height="18">
+              <defs>
+                <clipPath id="_clipPath_fgX00hLzP9PnAfCkGQoSPsYB7aEGkj1G">
+                  <rect width="20" height="18"></rect>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#_clipPath_fgX00hLzP9PnAfCkGQoSPsYB7aEGkj1G)">
+                <path d=" M 0 0 L 0 7.813 L 16 9 L 0 10.188 L 0 18 L 20 9 L 0 0 Z " fill="rgb(46,46,46)"></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <nav class="navbar navbar-expand-lg navbar-light header-bg sticky-top">
     <div class="container-fluid">
@@ -359,8 +392,13 @@ Tiscon and Parlx Associates are ready to begin your project!
                             <h6>Services :</h6>
                             <div class="footer-list">
                               <ul>
-                                <li><a href="./service-interior-design.html">Interior Design</a></li>
-                                <li><a href="./service-paint.html">Paints</a></li>
+                                <li><a href="./service-paint.html">Painting</a></li>
+                                <li><a href="./service-interior-design.html">Interior Designing</a></li>
+                                <li><a href="#">Construction</a></li>
+                                <li><a href="#">Renovation</a></li>
+                                <li><a href="#">Pest Control</a></li>
+                                <li><a href="#">Roof Top Farming/Gardening</a></li>
+                                <li><a href="#">Roof Top Solar Panel Installing </a></li>
                               </ul>
                             </div>
                         </div>
@@ -433,6 +471,7 @@ Tiscon and Parlx Associates are ready to begin your project!
 
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/whatsapp.js"></script>
 
 </body>
 
