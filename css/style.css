@@ -25,9 +25,7 @@
     width: 100%;
     height: auto;
 }
-.clip-text{
-        margin-bottom: 25px;
-    }
+
     .border-dotted{
         height: 100px;
     }
@@ -60,9 +58,7 @@
         border: none;
         cursor: pointer;
       }
-      .benefit-caption{
-        min-width: 200px;
-      }
+      
       .dropdown {
         position: relative;
         display: inline-block;
@@ -928,22 +924,32 @@
     }
 }
 /* Small Device = 320px */
-
+.benefits_table tbody tr{
+    height: 113px;
+}
+.benefit-caption{
+    margin-top: 67px;
+}
 @media only screen and (max-width: 479px) {
-    .benefit-table li, .benefit-caption h6{
+    .benefit-caption{
+        margin-top: 75px;
+    }
+    .benefits_table li{
         font-size: 12px;
     }
-    .benefit-caption{
-        min-width: 125px;
+    .benefits_table th{
+        padding: 0;
     }
-    .clip-text{
-        margin-bottom: 105px;
+    .benefits_table td{
+        padding: 5px 0px 0px 8px;
+    }
+    .clip-text h6{
+        font-size: 11px;
     }
     .we-offer{
-        width: 170px;
-    }
-    .border-dotted{
-        height: 175px;
+        width: 95px;
+        font-size: 10px;
+        padding: 8px;
     }
     .carousel-caption {
         position: absolute;
@@ -1149,3 +1155,6 @@
     font-size: 0;
     cursor: pointer;
 }
+
+
+/* Benefits */
