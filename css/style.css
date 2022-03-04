@@ -364,6 +364,7 @@
 /*=============================
       BENEFITS YOU RECEIVE
 ==============================*/
+
         .clip-text {
             clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 10% 50%, 0% 0%);
             background: linear-gradient(180deg, rgba(31, 104, 47, 0.58) 0%, rgba(16, 255, 140, 0.78) 100%);
@@ -924,32 +925,27 @@
     }
 }
 /* Small Device = 320px */
-.benefits_table tbody tr{
-    height: 113px;
+.table-bordered th {
+    border: 1px solid #dee2e6!important;
 }
-.benefit-caption{
-    margin-top: 67px;
+.bg-dgreen{
+    background-color: #53B344!important;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
 }
+.bg-lgreen{
+    background-color: #B9E6B3!important;
+    font-weight: 600;
+}
+.bg-xlgreen{
+    background-color: #DDF3D9!important;
+    font-weight: 600;
+}
+
 @media only screen and (max-width: 479px) {
-    .benefit-caption{
-        margin-top: 75px;
-    }
-    .benefits_table li{
-        font-size: 12px;
-    }
-    .benefits_table th{
-        padding: 0;
-    }
-    .benefits_table td{
-        padding: 5px 0px 0px 8px;
-    }
-    .clip-text h6{
-        font-size: 11px;
-    }
-    .we-offer{
-        width: 95px;
-        font-size: 10px;
-        padding: 8px;
+    .benefits_table{
+        font-size: 13px;
     }
     .carousel-caption {
         position: absolute;
